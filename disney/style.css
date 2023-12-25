@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    height: 100%;
+    background: url("./disney-castle-scaled.jpg");
+    background-size: cover;
+  }
+  
+  h1 {
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    font-family: "Schoolbell";
+    letter-spacing: 1.5px;
+    font-size: 40px;
+  }
+  
+  .header {
+    font-family: "Princess Sofia" !important;
+    letter-spacing: 3px;
+    font-size: 30px !important;
+    color: #f9e104 !important;
+  }
+  
+  b {
+    color: #000;
+  }
+  
+  img {
+    object-fit: cover;
+    height: 250px !important;
+  }
+  
+  .column {
+    padding-bottom: 0 !important;
+    margin: 20px !important;
+  }
+  
+  .buttons {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 30px !important;
+    margin: 20px 5px !important;
+    background-color: #072070 !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #87b1f0;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(60, 18, 214);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #072070;
+  }
